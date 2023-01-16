@@ -110,8 +110,8 @@ int[] ResultArray(int ResultArraySize, int Array3Length)
     }
     else 
     {
-    {for(int j = 0; j < ResultArraySize-1; j++)
-    {FinalArray[j] = Array3[j]* Array3[Array3Length - (j + 1)];}
+    {for(int i = 0; i < ResultArraySize-1; i++)
+    {FinalArray[i] = Array3[i]* Array3[Array3Length - (i + 1)];}
     }
     FinalArray[ResultArraySize-1] = Array3[ResultArraySize-1];
     }
